@@ -1,0 +1,15 @@
+[package]
+name = "fit_a_line"
+version = "0.1.0"
+authors = ["Raif Bajric <raif.bajric@sqa-consulting.com>"]
+edition = "2018"
+
+[dependencies]
+csv = "1.1.6"             
+serde = { version = "1.0", features = ["derive"] }
+quicli = "0.4.0"
+structopt = "0.3.23"
+
+[[bin]]
+name = "fit_a_line"
+path = "src/main.rs"
